@@ -37,12 +37,14 @@ using System;
 namespace {containingNamespace}
 {{
     public static class BedTypes
-    {{";
+    {{
+";
 
             // add all the bed types
             foreach (var bedClass in bedClasses)
             {
-                source += $@"          public const string {bedClass.Identifier.Text} = ""{bedClass.Identifier.Text}"";";
+                source += $@"          public const string {bedClass.Identifier.Text} = ""{bedClass.Identifier.Text}"";
+";
             }
 
             source += $@"

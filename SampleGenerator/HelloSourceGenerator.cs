@@ -29,7 +29,7 @@ namespace {mainMethod.ContainingNamespace.ToDisplayString()}
     public static partial class {mainMethod.ContainingType.Name}
     {{
         static partial void Hello(string name) =>
-            Console.WriteLine($""Generator says: Hi from '{{name}}'"");
+            Console.WriteLine($""Hello '{{name}}'"");
     }}
 }}
 ";

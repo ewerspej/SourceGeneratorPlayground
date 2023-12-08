@@ -6,7 +6,7 @@ static partial class Program
     {
         Hello("Generator");
         Hello(BedTypes.BunkBed);
-
+        
         foreach (var bedType in BedTypes.AllBedTypes)
         {
             Hello(bedType);
